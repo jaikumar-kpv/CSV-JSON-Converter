@@ -22,15 +22,14 @@ CSV to JSON Converter
 
 *   Open the script and set your file paths and options:
     
-
-Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQLGroovyHTMLJavaJavaScriptJSONJSXKotlinLaTeXLessLuaMakefileMarkdownMATLABMarkupObjective-CPerlPHPPowerShell.propertiesProtocol BuffersPythonRRubySass (Sass)Sass (Scss)SchemeSQLShellSwiftSVGTSXTypeScriptWebAssemblyYAMLXML`   Copyinput_csv = "data.csv"       # Path to your input CSV file  output_json = "data.json"    # Path for output JSON file (set to None to return JSON object)  json_indent = 4              # Indentation for pretty JSON (set to None for compact)   `
+`   Copyinput_csv = "data.csv"       # Path to your input CSV file  output_json = "data.json"    # Path for output JSON file (set to None to return JSON object)  json_indent = 4              # Indentation for pretty JSON (set to None for compact)   `
 
 ### 2\. Run the script
 
 *   Run the following command:
     
 
-Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQLGroovyHTMLJavaJavaScriptJSONJSXKotlinLaTeXLessLuaMakefileMarkdownMATLABMarkupObjective-CPerlPHPPowerShell.propertiesProtocol BuffersPythonRRubySass (Sass)Sass (Scss)SchemeSQLShellSwiftSVGTSXTypeScriptWebAssemblyYAMLXML`   python csv_to_json.py   `
+`   python csv_to_json.py   `
 
 ### 3\. Output
 
@@ -67,11 +66,11 @@ csv\_to\_json(csv\_file\_path, json\_file\_path=None, indent=4)
 
 Given a data.csv:
 
-Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQLGroovyHTMLJavaJavaScriptJSONJSXKotlinLaTeXLessLuaMakefileMarkdownMATLABMarkupObjective-CPerlPHPPowerShell.propertiesProtocol BuffersPythonRRubySass (Sass)Sass (Scss)SchemeSQLShellSwiftSVGTSXTypeScriptWebAssemblyYAMLXML`   name,age,city  Alice,30,New York  Bob,25,San Francisco   `
+`   name,age,city  Alice,30,New York  Bob,25,San Francisco   `
 
 The resulting data.json will look like:
 
-Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQLGroovyHTMLJavaJavaScriptJSONJSXKotlinLaTeXLessLuaMakefileMarkdownMATLABMarkupObjective-CPerlPHPPowerShell.propertiesProtocol BuffersPythonRRubySass (Sass)Sass (Scss)SchemeSQLShellSwiftSVGTSXTypeScriptWebAssemblyYAMLXML`   [      {          "name": "Alice",          "age": "30",          "city": "New York"      },      {          "name": "Bob",          "age": "25",          "city": "San Francisco"      }  ]   `
+`   [      {          "name": "Alice",          "age": "30",          "city": "New York"      },      {          "name": "Bob",          "age": "25",          "city": "San Francisco"      }  ]   `
 
 ⚠️ Error Handling
 -----------------
